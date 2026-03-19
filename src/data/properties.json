@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "a487",
+    "slug": "a487-avellaneda-487",
+    "name": "A487",
+    "fullName": "A487 — Avellaneda 487",
+    "address": "Avellaneda 487, Merlo",
+    "location": "Merlo",
+    "developer": "Estudio Guarino Arquitectura",
+    "totalUnits": "16 departamentos + 2 locales",
+    "availableApartments": 4,
+    "availableParking": 0,
+    "parkingNote": null,
+    "priceFrom": 64860,
+    "priceDisplay": "USD 64.860",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": true,
+    "description": "Edificio de 16 departamentos y 2 locales comerciales en pleno centro de Merlo. Planta baja con hall de acceso y locales comerciales, 4 pisos de departamentos monoambientes y de 2 ambientes, con ascensor, terraza privativa con S.U.M. y cocheras.",
+    "features": [
+      "Monoambientes y 2 ambientes",
+      "2 Locales comerciales",
+      "Ascensor",
+      "Terrazas privativas con S.U.M.",
+      "Cochera (UF19)",
+      "Carpintería PVC con DVH"
+    ],
+    "detallesCategoria": [
+      "Revestimiento plástico texturado exterior tipo 'Sítex' + hormigón visto en fachada",
+      "Ascensor con revestimiento y puertas en acero inoxidable en planta baja, piso en granito",
+      "Pisos cerámicos de primera calidad en balcones de todas las unidades",
+      "Pisos cerámicos de primera calidad en living-comedor, cocina y dormitorios",
+      "Paredes interiores terminadas en pintura al látex de primera marca",
+      "Artefactos sanitarios en loza blanca tipo 'Ferrum' o Roca",
+      "Grifería tipo FV modelo 'Allegro' o similar",
+      "Mesada de granito gris mara y bacha de acero inoxidable",
+      "Puertas interiores en cedro con marco de chapa",
+      "Puertas de acceso a departamentos metálicas con detalles en acero",
+      "Carpintería de PVC con doble vidriado hermético (DVH)",
+      "Frente de placard corredizo hecho a medida, en melamina",
+      "Pre-instalación de aire acondicionado tipo split (NO incluye equipos)",
+      "Conexión para lavarropas en todas las unidades",
+      "Instalación lista para televisión e internet",
+      "Portón automatizado en ingreso a sector cocheras",
+      "Hall de entrada: porcelanato, cerramientos en vidrio con puerta de acceso, con vidrio de seguridad",
+      "Instalación lista para gas en anafes y cocinas"
+    ],
+    "plantas": {
+      "Planta Baja": "2 locales comerciales (UF01: 79.65m², UF02: 96.80m²) + Hall + Cochera UF19",
+      "Primer Piso": "UF03 Monoambiente (35.80m²) · UF04 Dos ambientes (64.65m²) · UF05 Monoambiente (35.20m²) · UF06 Monoambiente (35.10m²)",
+      "Segundo Piso": "UF07 Monoambiente · UF08 Dos ambientes · UF09 Monoambiente · UF10 Monoambiente",
+      "Tercer Piso": "UF11 Monoambiente (40.65m²) · UF12 Monoambiente · UF13 Dos ambientes (64.65m²) · UF14 Monoambiente",
+      "Cuarto Piso": "UF15 Monoambiente (40.65m²) · UF16 Dos ambientes · UF17 Dos ambientes · UF18 Monoambiente",
+      "Terraza": "S.U.M. (27.94m²) · Tender · T01, T02, T03 Terrazas privadas (~19m² c/u)"
+    },
+    "mapCoords": "-34.6698,-58.7277",
+    "images": [
+      "propiedades/a487/00.png",
+      "propiedades/a487/01.png",
+      "propiedades/a487/02.png",
+      "propiedades/a487/03.png",
+      "propiedades/a487/04.png",
+      "propiedades/a487/05.png",
+      "propiedades/a487/06.png",
+      "propiedades/a487/07.png",
+      "propiedades/a487/08.png",
+      "propiedades/a487/09.png",
+      "propiedades/a487/10.png",
+      "propiedades/a487/11.png",
+      "propiedades/a487/12.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF07",
+        "piso": "2do",
+        "tipo": "Monoambiente",
+        "m2Cub": 35.8,
+        "m2Balcon": 4.7,
+        "m2Total": 40.5,
+        "precioUSD": 64860,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF08",
+        "piso": "2do",
+        "tipo": "2 Ambientes",
+        "m2Cub": 64.65,
+        "m2Balcon": 19.9,
+        "m2Total": 84.55,
+        "precioUSD": 126820,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF11",
+        "piso": "3ro",
+        "tipo": "Monoambiente",
+        "m2Cub": 40.65,
+        "m2Balcon": 4.7,
+        "m2Total": 45.35,
+        "precioUSD": 73100,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF15",
+        "piso": "4to",
+        "tipo": "Monoambiente",
+        "m2Cub": 40.65,
+        "m2Balcon": 4.7,
+        "m2Total": 45.35,
+        "precioUSD": 73100,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF01",
+        "piso": "PB",
+        "tipo": "Local comercial",
+        "m2Cub": 79.65,
+        "m2Balcon": 34.1,
+        "m2Total": 113.75,
+        "precioUSD": 190000,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF02",
+        "piso": "PB",
+        "tipo": "Local comercial",
+        "m2Cub": 96.8,
+        "m2Balcon": 34.35,
+        "m2Total": 131.15,
+        "precioUSD": 210000,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "80% anticipo + 5 cuotas en USD",
+      "nota": "Cuotas pesificadas al TC del boleto, ajuste CAC. M² semicubierta computa al 50%.",
+      "extras": [
+        {
+          "item": "Terrazas privativas T01, T02, T03",
+          "precio": "USD 7.000 c/u"
+        },
+        {
+          "item": "Cochera UF19 (PB)",
+          "precio": "A confirmar"
+        }
+      ]
+    }
+  },
+  {
+    "id": "live-padua",
+    "slug": "live-padua-cochabamba-182",
+    "name": "Live Padua",
+    "fullName": "Live Padua — Cochabamba 182",
+    "address": "Cochabamba 182, San Antonio de Padua",
+    "location": "San Antonio de Padua",
+    "developer": "Estudio Guarino / MISI",
+    "totalUnits": "7 departamentos tipo boutique",
+    "availableApartments": 7,
+    "availableParking": 6,
+    "parkingNote": null,
+    "priceFrom": 101560,
+    "priceDisplay": "USD 101.560",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": false,
+    "description": "Un proyecto boutique pensado para quienes eligen vivir mejor. Live Padua se compone de siete unidades exclusivas: tres semipisos y un piso completo con balcón y terraza propia. Cada departamento fue diseñado para disfrutar del espacio, la luz y el confort, con parrilla individual y una arquitectura moderna que prioriza los detalles de categoría y la calidad constructiva. Ubicado en la mejor zona residencial de Padua, a metros del Boulevard Echeverría y del área comercial.",
+    "features": [
+      "7 unidades exclusivas",
+      "Departamentos tipo boutique",
+      "Piso y semi pisos",
+      "Cocheras individuales",
+      "Parrillas individuales en cada depto",
+      "SUM con parrilla",
+      "Laundry",
+      "Guardado de bicicletas"
+    ],
+    "detallesCategoria": [
+      "Hormigón visto en fachada",
+      "Parasoles de madera en balcones",
+      "Aberturas de DVH piso a techo",
+      "Cocheras individuales",
+      "Parrillas individuales en cada departamento",
+      "Cocinas integradas y modernas",
+      "Pre-instalación aire frío y calor tipo split",
+      "Ambientes amplios",
+      "Cerraduras biométricas",
+      "Seguridad: circuito de cámara de CCTV (a confirmar)",
+      "Anafe y horno eléctrico",
+      "Portero visor",
+      "Carpinterías metálicas y canteros metálicos",
+      "Barandas de hierro"
+    ],
+    "plantas": {
+      "Planta Baja": "Hall · 6 cocheras · Guardado de bicicletas",
+      "Pisos 1°, 2° y 3°": "UF1: 2 dormitorios (68m² cubiertos + 15.30m² balcón) · UF2: 1 dormitorio (49m² cubiertos + 9.06m² balcón)",
+      "Terraza": "S.U.M. · Sector común de parrillas · Lavadero"
+    },
+    "mapCoords": "-34.6620,-58.7530",
+    "images": [
+      "propiedades/live-padua/00.png",
+      "propiedades/live-padua/01.png",
+      "propiedades/live-padua/02.png",
+      "propiedades/live-padua/03.png",
+      "propiedades/live-padua/04.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF1",
+        "piso": "1ro",
+        "tipo": "3 Amb / 2 Dorm",
+        "m2Cub": 68.0,
+        "m2Balcon": 15.3,
+        "m2Total": 83.3,
+        "precioUSD": 145775,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF2",
+        "piso": "1ro",
+        "tipo": "2 Amb / 1 Dorm",
+        "m2Cub": 49.0,
+        "m2Balcon": 9.06,
+        "m2Total": 58.06,
+        "precioUSD": 101560,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF3",
+        "piso": "2do",
+        "tipo": "3 Amb / 2 Dorm",
+        "m2Cub": 68.0,
+        "m2Balcon": 15.3,
+        "m2Total": 83.3,
+        "precioUSD": 146275,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF4",
+        "piso": "2do",
+        "tipo": "2 Amb / 1 Dorm",
+        "m2Cub": 49.0,
+        "m2Balcon": 9.06,
+        "m2Total": 58.06,
+        "precioUSD": 102060,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF5",
+        "piso": "3ro",
+        "tipo": "3 Amb / 2 Dorm",
+        "m2Cub": 68.0,
+        "m2Balcon": 15.3,
+        "m2Total": 83.3,
+        "precioUSD": 146775,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF6",
+        "piso": "3ro",
+        "tipo": "2 Amb / 1 Dorm",
+        "m2Cub": 49.0,
+        "m2Balcon": 9.06,
+        "m2Total": 58.06,
+        "precioUSD": 102560,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF7",
+        "piso": "4to",
+        "tipo": "3 Amb / 2 Dorm (Piso completo)",
+        "m2Cub": 98.0,
+        "m2Balcon": 12.0,
+        "m2Total": 130.5,
+        "precioUSD": 210000,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "Anticipo + 18 cuotas en USD (2 opciones de pago)",
+      "opciones": [
+        {
+          "nombre": "Opción 1",
+          "detalle": "Anticipo 40% + 18 cuotas mensuales"
+        },
+        {
+          "nombre": "Opción 2",
+          "detalle": "Anticipo 35% + 18 cuotas + 5 refuerzos de USD 5.000 c/3 meses"
+        }
+      ],
+      "nota": "Cuotas pesificadas al TC vendedor (dólar libre) del día del boleto, ajuste CAC.",
+      "extras": [
+        {
+          "item": "Cocheras descubiertas (4 disp.)",
+          "precio": "USD 12.000 c/u"
+        },
+        {
+          "item": "Cocheras cubiertas (2 disp.)",
+          "precio": "USD 13.000 c/u"
+        },
+        {
+          "item": "Bauleras (2 disp.)",
+          "precio": "USD 3.000 c/u"
+        }
+      ]
+    }
+  },
+  {
+    "id": "a606",
+    "slug": "a606-avellaneda-606",
+    "name": "A606",
+    "fullName": "A606 — Avellaneda 606",
+    "address": "Avellaneda 606, Merlo",
+    "location": "Merlo",
+    "developer": "Estudio Guarino Arquitectura",
+    "totalUnits": "20 departamentos + 3 locales",
+    "availableApartments": 3,
+    "availableParking": 6,
+    "parkingNote": null,
+    "priceFrom": null,
+    "priceDisplay": "A confirmar",
+    "priceConfirmed": false,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": false,
+    "description": "Edificio de 20 departamentos de 1 a 3 ambientes y 3 locales comerciales sobre Avellaneda 606, Merlo, desarrollado sobre una parcela de 23.20m x 43.60m (superficie 525 m²). Subsuelo con 11 cocheras y 9 bauleras. Cuenta con terraza, parrilla y salón de usos múltiples con parrilla.",
+    "features": [
+      "1, 2 y 3 ambientes",
+      "3 Locales comerciales",
+      "11 Cocheras en subsuelo",
+      "9 Bauleras",
+      "Terraza con parrilla",
+      "SUM",
+      "Ascensor"
+    ],
+    "detallesCategoria": [
+      "Revestimiento plástico texturado exterior tipo 'Sítex' + hormigón visto en fachada",
+      "Ascensor con revestimiento y puertas en acero inoxidable en planta baja, piso en granito",
+      "Pisos cerámicos de primera calidad en balcones de todas las unidades",
+      "Pisos cerámicos de primera calidad en living-comedor, cocina y dormitorios",
+      "Paredes interiores terminadas en pintura al látex de primera marca",
+      "Artefactos sanitarios en loza blanca tipo 'Ferrum' o Roca",
+      "Grifería tipo FV modelo 'Allegro' o similar",
+      "Mesada de granito gris mara y bacha de acero inoxidable",
+      "Amoblamiento de cocina hecho a medida y de diseño exclusivo, en melamina",
+      "Puertas interiores en cedro con marco de chapa",
+      "Carpinterías de PVC con DVH",
+      "Conexión para lavarropas en todas las unidades",
+      "Pre-instalación aire acondicionado tipo split (NO incluye equipos)",
+      "Instalación lista para televisión e internet",
+      "Portón automatizado en ingreso a sector cocheras",
+      "Hall de entrada en porcelanato con puerta de acceso en vidrio de seguridad"
+    ],
+    "plantas": {
+      "Subsuelo": "11 cocheras (UF24-34) · 9 bauleras",
+      "Planta Baja": "UF1, UF2, UF3 — Locales comerciales",
+      "Primer Piso": "UF4 (2 amb) · UF5 (2 amb) · UF6 (3 amb) · UF7 (2 amb) · UF8 (2 amb)",
+      "Segundo Piso": "UF9 (2 amb) · UF10 (2 amb) · UF11 (2 amb) · UF12 (2 amb) · UF13 (2 amb)",
+      "Tercer Piso": "UF14 (2 amb) · UF15 (2 amb) · UF16 (2 amb) · UF17 (2 amb) · UF18 (2 amb)",
+      "Cuarto Piso": "UF19 (2 amb) · UF20 (2 amb) · UF21 (2 amb) · UF22 (2 amb) · UF23 (2 amb)"
+    },
+    "mapCoords": "-34.6698,-58.7272",
+    "images": [
+      "propiedades/a606/00.png",
+      "propiedades/a606/01.png",
+      "propiedades/a606/02.png",
+      "propiedades/a606/03.png",
+      "propiedades/a606/04.png",
+      "propiedades/a606/05.png",
+      "propiedades/a606/06.png",
+      "propiedades/a606/07.png",
+      "propiedades/a606/08.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF4",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 42.95,
+        "m2Balcon": 7.0,
+        "m2Total": 49.95,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF5",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 48.2,
+        "m2Balcon": 8.25,
+        "m2Total": 56.45,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF6",
+        "piso": "1ro",
+        "tipo": "3 Ambientes",
+        "m2Cub": 67.75,
+        "m2Balcon": 11.1,
+        "m2Total": 78.85,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF7",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 44.85,
+        "m2Balcon": 5.4,
+        "m2Total": 50.25,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF8",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 39.9,
+        "m2Balcon": 19.95,
+        "m2Total": 59.85,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF9",
+        "piso": "2do",
+        "tipo": "2 Ambientes",
+        "m2Cub": 50.85,
+        "m2Balcon": 9.1,
+        "m2Total": 59.95,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF10",
+        "piso": "2do",
+        "tipo": "2 Ambientes",
+        "m2Cub": 43.75,
+        "m2Balcon": 8.25,
+        "m2Total": 52.0,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF11",
+        "piso": "2do",
+        "tipo": "2 Ambientes",
+        "m2Cub": 55.5,
+        "m2Balcon": 8.1,
+        "m2Total": 63.6,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF12",
+        "piso": "2do",
+        "tipo": "2 Ambientes",
+        "m2Cub": 31.5,
+        "m2Balcon": 3.4,
+        "m2Total": 34.9,
+        "precioUSD": null,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF13",
+        "piso": "2do",
+        "tipo": "2 Ambientes",
+        "m2Cub": 63.5,
+        "m2Balcon": 2.65,
+        "m2Total": 66.15,
+        "precioUSD": null,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "Precios a confirmar",
+      "nota": "Todas las unidades disponibles. Precios en proceso de definición.",
+      "extras": [
+        {
+          "item": "3 Locales comerciales (PB)",
+          "precio": "A confirmar"
+        },
+        {
+          "item": "11 Cocheras (subsuelo)",
+          "precio": "A confirmar"
+        },
+        {
+          "item": "6 Bauleras (subsuelo)",
+          "precio": "A confirmar"
+        }
+      ]
+    }
+  },
+  {
+    "id": "a631",
+    "slug": "a631-avellaneda-631",
+    "name": "A631",
+    "fullName": "A631 — Avellaneda 631",
+    "address": "Avellaneda 631, Merlo",
+    "location": "Merlo",
+    "developer": "Estudio Guarino Arquitectura",
+    "totalUnits": "18 departamentos + 2 locales",
+    "availableApartments": 3,
+    "availableParking": 1,
+    "parkingNote": null,
+    "priceFrom": 71190,
+    "priceDisplay": "USD 71.190",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": true,
+    "description": "Edificio de 18 departamentos (monoambientes y 2 ambientes) y 2 locales en Avellaneda 631, Merlo. Planta baja con hall de acceso, 3 locales comerciales y 11 cocheras. Tres pisos de 6 departamentos cada uno con 2 monoambientes y 4 de dos ambientes, dando un total de 18 unidades de vivienda. Terraza con S.U.M. y 5 terrazas privadas.",
+    "features": [
+      "Monoambientes y 2 ambientes",
+      "2 Locales comerciales",
+      "Ascensor",
+      "11 Cocheras",
+      "6 Bauleras",
+      "5 Terrazas privadas",
+      "S.U.M. en terraza",
+      "Carpintería PVC con DVH"
+    ],
+    "detallesCategoria": [
+      "Revestimiento plástico texturado exterior tipo 'Sítex' + hormigón visto en fachada",
+      "Ascensor con revestimiento y puertas en acero inoxidable en planta baja, piso en granito",
+      "Pisos cerámicos de primera calidad en balcones de todas las unidades",
+      "Pisos cerámicos de primera calidad en living-comedor, cocina y dormitorios",
+      "Paredes interiores terminadas en pintura al látex de primera marca",
+      "Artefactos sanitarios en loza blanca tipo 'Ferrum' o Roca",
+      "Grifería cromada tipo FV modelo 'Allegro' o similar",
+      "Mesada de granito gris mara y bacha de acero inoxidable",
+      "Puertas de acceso a departamentos metálicas con detalles en acero",
+      "Puertas interiores en cedro con marco de chapa",
+      "Carpintería de PVC con doble vidriado hermético (DVH)",
+      "Pre-instalación de aire acondicionado tipo split (NO incluye equipos)",
+      "Instalación lista para televisión e internet",
+      "Frente de placard corredizo hecho a medida, sobre guías de aluminio",
+      "Conexión para lavarropas en todas las unidades",
+      "Portón automatizado en ingreso a sector cocheras",
+      "Hall de entrada: porcelanato, cerramientos en vidrio con puerta de acceso con vidrio de seguridad"
+    ],
+    "plantas": {
+      "Planta Baja": "UF01, UF02 — Locales comerciales (50.73m², 50.78m²) · 11 cocheras (UF04-UF11) · 2 bauleras (B01-B02)",
+      "Primer Piso": "UF12 (2 amb, 51.85m²) · UF13 (mono, 39.50m²) · UF14 (2 amb, 54.12m²) · UF15 (2 amb, 51.85m²) · UF16 (mono, 39.30m²) · UF17 (2 amb, 54m²)",
+      "Segundo Piso": "UF18-UF23 — Misma distribución que 1er piso",
+      "Tercer Piso": "UF24-UF29 — Misma distribución que 1er piso",
+      "Terraza": "S.U.M. (38m²) · Tender · T01-T05 Terrazas privadas (16-24m² c/u)"
+    },
+    "mapCoords": "-34.6700,-58.7268",
+    "images": [
+      "propiedades/a631/00.png",
+      "propiedades/a631/01.png",
+      "propiedades/a631/02.png",
+      "propiedades/a631/03.png",
+      "propiedades/a631/04.png",
+      "propiedades/a631/05.png",
+      "propiedades/a631/06.png",
+      "propiedades/a631/07.png",
+      "propiedades/a631/08.png",
+      "propiedades/a631/09.png",
+      "propiedades/a631/10.png",
+      "propiedades/a631/11.png",
+      "propiedades/a631/12.png",
+      "propiedades/a631/13.png",
+      "propiedades/a631/14.png",
+      "propiedades/a631/15.png",
+      "propiedades/a631/16.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF16",
+        "piso": "1ro",
+        "tipo": "Monoambiente",
+        "m2Cub": 39.3,
+        "m2Balcon": 5.15,
+        "m2Total": 44.45,
+        "precioUSD": 71190,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF17",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 54.0,
+        "m2Balcon": 12.63,
+        "m2Total": 66.63,
+        "precioUSD": 102540,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF22",
+        "piso": "2do",
+        "tipo": "Monoambiente",
+        "m2Cub": 39.3,
+        "m2Balcon": 5.15,
+        "m2Total": 44.45,
+        "precioUSD": 71190,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF2",
+        "piso": "PB",
+        "tipo": "Local comercial",
+        "m2Cub": 50.78,
+        "m2Balcon": 0,
+        "m2Total": 50.78,
+        "precioUSD": 130000,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "50% anticipo + 8 cuotas + 2 refuerzos semestrales de USD 5.000",
+      "nota": "Ajuste CAC.",
+      "extras": [
+        {
+          "item": "Cochera UF3",
+          "precio": "USD 15.000"
+        },
+        {
+          "item": "Bauleras B01-B06",
+          "precio": "USD 4.000 c/u"
+        },
+        {
+          "item": "Terrazas privativas T01-T05",
+          "precio": "USD 6.000 c/u"
+        }
+      ]
+    }
+  },
+  {
+    "id": "boho-house",
+    "slug": "boho-house-9-de-julio-610",
+    "name": "BOHO House",
+    "fullName": "BOHO House — 9 de Julio 610",
+    "address": "9 de Julio 610, Merlo",
+    "location": "Merlo",
+    "developer": "BOHO House",
+    "totalUnits": "8 dúplex",
+    "availableApartments": 4,
+    "availableParking": 0,
+    "parkingNote": "Incluida",
+    "priceFrom": 110000,
+    "priceDisplay": "USD 110.000",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": true,
+    "description": "Complejo de 8 dúplex en 9 de Julio 610, Merlo. Cada unidad funcional cuenta con 79.40m² cubiertos, 4.40m² semicubiertos y 36.70m² de patio con cochera en planta baja. Diseño moderno y sustentable con muros exteriores de ladrillo a la vista con cámara de aire y ladrillo hueco, carpinterías de PVC con DVH, ventilación cruzada y excelente asoleamiento.",
+    "features": [
+      "Dúplex de 3 ambientes",
+      "Cochera incluida en planta baja",
+      "Patio privado (36.70m²)",
+      "Balcón en planta alta",
+      "Diseño sustentable",
+      "Ladrillo visto + aislación térmica",
+      "Carpintería PVC con DVH"
+    ],
+    "detallesCategoria": [
+      "Muros exteriores de ladrillo a la vista con cámara de aire y ladrillo hueco para aislamiento",
+      "Baldosa de cemento y losa con sistema de viga y vigueta, capa aislante entre pisos",
+      "Carpinterías de PVC con DVH (doble vidrio hermético) para aislamiento térmico y acústico",
+      "Revestimiento de porcellanato o similar en pisos",
+      "Cocina amoblada con detalles de calidad",
+      "Carpinterías de primera calidad",
+      "Preinstalación de AAC",
+      "Pisos y revestimientos de primera línea",
+      "Espacio para lavarropas en todos los deptos",
+      "Ventilación cruzada natural",
+      "Garden Block y ladrillo de vidrio en accesos",
+      "Hormigón visto en detalles",
+      "Barandas reja de hierro",
+      "Cerámicos de patio",
+      "Parasoles corredizos en fachada"
+    ],
+    "plantas": {
+      "Planta Baja": "Cocina-Comedor · Estar · Baño · Patio (36.70m²) · Cochera — 40.40m² cubiertos",
+      "Planta Alta": "2 Dormitorios · Baño · Balcón (4.40m²) — 39m² cubiertos",
+      "Total por unidad": "79.40m² cubiertos + 4.40m² semicubiertos + 36.70m² patio"
+    },
+    "mapCoords": "-34.6710,-58.7285",
+    "images": [
+      "propiedades/boho-house/00.png",
+      "propiedades/boho-house/01.png",
+      "propiedades/boho-house/02.png",
+      "propiedades/boho-house/03.png",
+      "propiedades/boho-house/04.png",
+      "propiedades/boho-house/05.png",
+      "propiedades/boho-house/06.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF1",
+        "piso": "PB+PA",
+        "tipo": "Dúplex 2 Dorm + Patio + Cochera",
+        "m2Cub": 81.0,
+        "m2Balcon": 4.4,
+        "m2Total": 118.24,
+        "precioUSD": 110000,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF2",
+        "piso": "PB+PA",
+        "tipo": "Dúplex 2 Dorm + Patio + Cochera",
+        "m2Cub": 79.4,
+        "m2Balcon": 4.4,
+        "m2Total": 120.51,
+        "precioUSD": 110000,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF3",
+        "piso": "PB+PA",
+        "tipo": "Dúplex 2 Dorm + Patio + Cochera",
+        "m2Cub": 79.4,
+        "m2Balcon": 4.4,
+        "m2Total": 120.51,
+        "precioUSD": 110000,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF4",
+        "piso": "PB+PA",
+        "tipo": "Dúplex 2 Dorm + Patio + Cochera",
+        "m2Cub": 79.4,
+        "m2Balcon": 4.4,
+        "m2Total": 120.51,
+        "precioUSD": 110000,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "Anticipo USD 50.000 + 18 cuotas (3 opciones)",
+      "opciones": [
+        {
+          "nombre": "Opción 1",
+          "detalle": "Sin refuerzo: 18 cuotas x USD 3.335"
+        },
+        {
+          "nombre": "Opción 2",
+          "detalle": "Con 3 refuerzos: 18 cuotas x USD 2.500 + 3 refuerzos de USD 5.000 c/6 meses"
+        },
+        {
+          "nombre": "Opción 3",
+          "detalle": "Con 1 refuerzo a entrega: 18 cuotas x USD 2.780 + USD 10.000 a la entrega"
+        }
+      ],
+      "nota": "Cochera incluida en el precio. 4 unidades vendidas (UF5-UF8)."
+    }
+  },
+  {
+    "id": "marenas-15",
+    "slug": "marenas-15-echeverria-456",
+    "name": "Marenas 15",
+    "fullName": "Marenas 15 — Echeverría 456",
+    "address": "Echeverría 456, San Antonio de Padua",
+    "location": "San Antonio de Padua",
+    "developer": "Estudio Guarino Arquitectura",
+    "totalUnits": "27 departamentos + 1 local",
+    "availableApartments": 1,
+    "availableParking": 1,
+    "parkingNote": null,
+    "priceFrom": 98415,
+    "priceDisplay": "USD 98.415",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": false,
+    "description": "Edificio de viviendas en Echeverría 456, San Antonio de Padua. Se desarrolla sobre una parcela de 17.32m x 43.68m con una superficie de 755.15 m². El proyecto se compone de planta baja con 1 local, 3 UF monoambientes, 2 UF de dos ambientes y 3 unidades de cocheras. Subsuelo con 14 cocheras y 16 bauleras. 1° y 2° piso con departamentos de 2 ambientes (6 c/u), pisos 3° y 4° con unidades de dos y tres ambientes. Cuenta con terrazas privativas y salón de uso múltiple con parrillas.",
+    "features": [
+      "Monoambientes, 2 y 3 ambientes",
+      "1 Local comercial",
+      "14 Cocheras en subsuelo",
+      "16 Bauleras",
+      "Terrazas privativas (9)",
+      "S.U.M. con parrillas",
+      "Ascensor",
+      "Carpintería PVC con DVH"
+    ],
+    "detallesCategoria": [
+      "Revestimiento plástico texturado exterior tipo 'Sítex' + hormigón visto",
+      "Ascensor con revestimiento y puertas en acero inoxidable en planta baja, piso en granito",
+      "Pisos cerámicos de primera calidad en balcones de todas las unidades",
+      "Pisos cerámicos de primera calidad en living-comedor, cocina y dormitorios",
+      "Paredes interiores terminadas en pintura al látex de primera marca",
+      "Artefactos sanitarios en loza blanca tipo 'Ferrum' o Roca",
+      "Grifería cromada tipo FV modelo 'Allegro' o similar",
+      "Mesada de granito gris perla y bacha de acero inoxidable",
+      "Frente de placard corredizos hechos a medida, sobre guías de aluminio",
+      "Pre-instalación para aire acondicionado tipo splits en estar-comedor y dormitorios (NO incluye equipos)",
+      "Conexión para lavarropas en todas las unidades",
+      "Instalación lista para televisión e internet",
+      "Instalación agua fría y caliente en cañería de polipropileno con termofusión",
+      "Agua caliente con termos eléctricos",
+      "Cocinas eléctricas (sin provisión de artefacto)",
+      "Instalación de campana",
+      "Hall de entrada: piso en porcelanato, cerramientos en vidrio con puerta de acceso, con vidrio de seguridad",
+      "Portón automatizado en ingreso a sector cocheras",
+      "Piso de sector cocheras en hormigón alisado"
+    ],
+    "plantas": {
+      "Subsuelo": "14 cocheras · 16 bauleras",
+      "Planta Baja": "UF15-UF21bis — 3 cocheras, 3 monoambientes, 2 dos ambientes, 1 local",
+      "Primer Piso": "UF22-UF27 — 2 monoambientes, 2 dos ambientes, 1 tres ambientes",
+      "Segundo Piso": "UF28-UF33 — 3 monoambientes, 2 dos ambientes, 1 tres ambientes",
+      "Tercer Piso": "UF34-UF39 — 1 monoambiente, 3 dos ambientes, 1 tres ambientes",
+      "Cuarto Piso": "UF40-UF44 — 1 monoambiente, 3 dos ambientes, 1 tres ambientes",
+      "Terraza": "9 terrazas privativas (11-24m² c/u) · Terraza accesible con parrillas + S.U.M."
+    },
+    "mapCoords": "-34.6622,-58.7535",
+    "images": [
+      "propiedades/marenas-15/00.png",
+      "propiedades/marenas-15/01.png",
+      "propiedades/marenas-15/02.png",
+      "propiedades/marenas-15/03.png",
+      "propiedades/marenas-15/04.png",
+      "propiedades/marenas-15/05.png",
+      "propiedades/marenas-15/06.png",
+      "propiedades/marenas-15/07.png",
+      "propiedades/marenas-15/08.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF19B",
+        "piso": "PB",
+        "tipo": "Monoambiente",
+        "m2Cub": 55.95,
+        "m2Balcon": 11.12,
+        "m2Total": 67.07,
+        "precioUSD": 98415,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF18",
+        "piso": "PB",
+        "tipo": "Local comercial",
+        "m2Cub": 76.0,
+        "m2Balcon": 22.0,
+        "m2Total": 98.0,
+        "precioUSD": 152000,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "60% anticipo + 10 cuotas + 3 refuerzos semestrales de USD 5.000",
+      "nota": "Ajuste CAC. Pisos 1° a 4° vendidos.",
+      "extras": [
+        {
+          "item": "14 Cocheras subsuelo",
+          "precio": "USD 15.000 c/u"
+        },
+        {
+          "item": "16 Bauleras",
+          "precio": "USD 5.000 c/u"
+        },
+        {
+          "item": "9 Terrazas privativas",
+          "precio": "USD 6.000 a 8.000 c/u"
+        }
+      ]
+    }
+  },
+  {
+    "id": "s271",
+    "slug": "s271-sarmiento-271",
+    "name": "S271",
+    "fullName": "S271 — Sarmiento 271",
+    "address": "Sarmiento 271, Merlo",
+    "location": "Merlo",
+    "developer": "Estudio Guarino Arquitectura",
+    "totalUnits": "2 departamentos por piso",
+    "availableApartments": 2,
+    "availableParking": 2,
+    "parkingNote": null,
+    "priceFrom": 113000,
+    "priceDisplay": "USD 113.000 - 270.000",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": false,
+    "description": "Edificio en Sarmiento 271, Merlo. Planta baja con 5 cocheras y baulera, primer piso con 2 unidades funcionales: UF1 de 53m² cubiertos + 16m² balcón y UF2 de 74m² cubiertos + 14m² balcón. Terminaciones de primera calidad con ascensor, carpinterías DVH y porcelanato.",
+    "features": [
+      "Departamentos de 2 y 3 ambientes",
+      "5 Cocheras",
+      "Baulera",
+      "Ascensor",
+      "Porcelanato",
+      "Carpintería PVC con DVH",
+      "Calefacción por losa radiante"
+    ],
+    "detallesCategoria": [
+      "Mueble de cocina con alacena y bajomesada en melamina (cualquier color)",
+      "Grifería FV o Peirano modelo Valencia o similar",
+      "Mesada de granito de primera calidad y bacha de acero inoxidable",
+      "Piso porcelanato",
+      "Instalación para cocina/horno/anafe a gas sin provisión de artefactos",
+      "Artefactos de baño marca Ferrum con válvulas de descarga en todos los baños",
+      "Piso porcelanato en baños",
+      "Revestimiento cerámico en baños",
+      "Mueble vanitory",
+      "Mamparas",
+      "Piso porcelanato en estar y en dormitorios",
+      "Frente e interiores de placard",
+      "Ascensor con revestimiento y puertas en acero inoxidable",
+      "Paredes interiores terminadas en pintura al látex satinado de primera marca",
+      "Puertas interiores en cedro con marco de madera",
+      "Carpinterías de PVC con DVH",
+      "Preinstalación para aire acondicionado tipo split sin provisión de equipos",
+      "Conexión para lavarropas y lavavajillas",
+      "Instalación lista para TV e Internet",
+      "Calefacción por losa radiante con caldera doble servicio",
+      "Cielorrasos de durlock con buca perimetral y cortineros",
+      "Alarma en todas las unidades y barrera exterior",
+      "Portero visor",
+      "Instalación para circuito de cámaras exteriores (sin provisión)"
+    ],
+    "plantas": {
+      "Planta Baja": "5 cocheras · 1 baulera",
+      "Primer Piso": "UF1: 53m² cubiertos + 16m² balcón · UF2: 74m² cubiertos + 14m² balcón"
+    },
+    "mapCoords": "-34.6693,-58.7283",
+    "images": [
+      "propiedades/s271/00.png",
+      "propiedades/s271/01.png",
+      "propiedades/s271/02.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF1",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 53.0,
+        "m2Balcon": 16.0,
+        "m2Total": 69.0,
+        "precioUSD": 113000,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF2",
+        "piso": "1ro",
+        "tipo": "3 Ambientes",
+        "m2Cub": 74.0,
+        "m2Balcon": 14.0,
+        "m2Total": 88.0,
+        "precioUSD": 145000,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "Piso completo",
+        "piso": "1ro",
+        "tipo": "4 Amb + 2 cocheras incluidas",
+        "m2Cub": 134.0,
+        "m2Balcon": 32.0,
+        "m2Total": 166.0,
+        "precioUSD": 270000,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "Anticipo 30% + 12 cuotas mensuales en USD",
+      "opciones": [
+        {
+          "nombre": "Config. A (2 unidades)",
+          "detalle": "UF1: anticipo USD 34.000 + 12 cuotas x USD 6.500 · UF2: anticipo USD 43.500 + 12 cuotas x USD 8.500"
+        },
+        {
+          "nombre": "Config. B (piso completo)",
+          "detalle": "Anticipo USD 80.000 + 12 cuotas x USD 15.800 + 6 refuerzos semestrales. Incluye cocheras 3 y 4, parrilla con gas, lavadero con mesada"
+        }
+      ],
+      "nota": "2do y 3er piso vendidos. Cocheras opcionales: USD 15.000 c/u."
+    }
+  },
+  {
+    "id": "m317",
+    "slug": "m317-maipu-317",
+    "name": "M317",
+    "fullName": "M317 — Maipú 317",
+    "address": "Maipú 317, Merlo",
+    "location": "Merlo",
+    "developer": "Estudio Guarino Arquitectura",
+    "totalUnits": "12 departamentos",
+    "availableApartments": 12,
+    "availableParking": 8,
+    "parkingNote": null,
+    "priceFrom": 82560,
+    "priceDisplay": "USD 82.560",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": false,
+    "description": "Edificio de 12 departamentos de 2 ambientes en Maipú 317, Merlo. Planta baja con hall y 7 cocheras, cuatro pisos tipo con 3 unidades funcionales cada uno (UF1: 43m² + 8.60m² balcón, UF2: 43m² + 8.60m² balcón, UF3: 49m² + 7m² balcón). Terminaciones de primera categoría con hormigón visto, carpintería DVH y chapa microperforada blanca en fachada.",
+    "features": [
+      "12 departamentos de 2 ambientes",
+      "7 Cocheras",
+      "Ascensor en acero inoxidable",
+      "Hormigón visto en fachada",
+      "Chapa microperforada en fachada",
+      "Carpintería DVH",
+      "Mamparas de vidrio",
+      "Porcelanato"
+    ],
+    "detallesCategoria": [
+      "Mueble de cocina con alacena y bajomesada en melamina (cualquier color)",
+      "Grifería FV o Peirano modelo Valencia o similar",
+      "Mesada de granito de primera calidad y bacha de acero inoxidable",
+      "Piso porcelanato en cocina",
+      "Instalación para cocina/horno/anafe a gas sin provisión de artefactos",
+      "Artefactos de baño marca Ferrum con válvulas de descarga en todos los baños",
+      "Grifería FV o Peirano modelo Valencia o similar en baños",
+      "Piso porcelanato en baños",
+      "Revestimiento cerámico en baños",
+      "Mueble vanitory",
+      "Mamparas de vidrio",
+      "Piso porcelanato en estar y en dormitorios",
+      "Frente e interiores de placard",
+      "Ascensor con revestimiento y puertas en acero inoxidable",
+      "Paredes interiores terminadas en pintura al látex satinado de primera marca",
+      "Puertas interiores en cedro con marco de chapa",
+      "Carpinterías con DVH",
+      "Preinstalación para aire acondicionado tipo split sin provisión de equipos",
+      "Conexión para lavarropas y lavavajillas",
+      "Instalación lista para TV e Internet"
+    ],
+    "plantas": {
+      "Planta Baja": "Hall · 7 cocheras",
+      "Pisos 1° a 4° (Planta Tipo)": "UF1: 2 ambientes (43m² + 8.60m² balcón) · UF2: 2 ambientes (43m² + 8.60m² balcón) · UF3: 2 ambientes (49m² + 7m² balcón)"
+    },
+    "mapCoords": "-34.6705,-58.7290",
+    "images": [
+      "propiedades/m317/00.png",
+      "propiedades/m317/01.png",
+      "propiedades/m317/02.png",
+      "propiedades/m317/03.png",
+      "propiedades/m317/04.png",
+      "propiedades/m317/05.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF1 (x4 pisos)",
+        "piso": "1° a 4°",
+        "tipo": "2 Ambientes",
+        "m2Cub": 43.0,
+        "m2Balcon": 8.6,
+        "m2Total": 51.6,
+        "precioUSD": 82650,
+        "estado": "Vendido"
+      },
+      {
+        "uf": "UF2 (x4 pisos)",
+        "piso": "1° a 4°",
+        "tipo": "2 Ambientes",
+        "m2Cub": 43.0,
+        "m2Balcon": 8.6,
+        "m2Total": 51.6,
+        "precioUSD": 82560,
+        "estado": "Vendido"
+      },
+      {
+        "uf": "UF3 (x4 pisos)",
+        "piso": "1° a 4°",
+        "tipo": "2 Ambientes",
+        "m2Cub": 49.0,
+        "m2Balcon": 7.0,
+        "m2Total": 56.0,
+        "precioUSD": 89600,
+        "estado": "Vendido"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "Anticipo + 24 cuotas + 4 refuerzos semestrales de USD 5.000",
+      "nota": "Todas las unidades y cocheras VENDIDAS. USD/m²: 1.400.",
+      "extras": [
+        {
+          "item": "8 Cocheras (PB)",
+          "precio": "USD 12.000 c/u (vendidas)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "camilli-140",
+    "slug": "camilli-140",
+    "name": "Camilli 140",
+    "fullName": "Camilli 140",
+    "address": "Camilli 140, Moreno",
+    "location": "Moreno",
+    "developer": "A confirmar",
+    "totalUnits": "27 unidades funcionales",
+    "availableApartments": 12,
+    "availableParking": 5,
+    "parkingNote": null,
+    "priceFrom": 49300,
+    "priceDisplay": "USD 49.300",
+    "priceConfirmed": true,
+    "constructionStatus": "Disponible",
+    "statusConfirmed": false,
+    "description": "Edificio Camilli 140, un proyecto sustentable y funcional, excelentemente ubicado en Moreno. 1495m² de superficie con planta baja, 5 pisos y S.U.M. con cocheras. Unidades de 1, 2 y 3 ambientes (de 32m² a 92m²), perfectas para familias jóvenes que buscan vivir en un entorno de seguridad y confort. Azotea con S.U.M., parrillas de uso común, rincón de fuego y terraza descubierta.",
+    "features": [
+      "Unidades de 1, 2 y 3 ambientes",
+      "De 32m² a 92m²",
+      "Cocheras",
+      "Bicicletero",
+      "Estacionamiento de motos",
+      "Cámaras de seguridad",
+      "Portón automatizado",
+      "S.U.M. en azotea",
+      "Parrillas comunes",
+      "Rincón de fuego"
+    ],
+    "detallesCategoria": [
+      "Cocheras opcionales",
+      "Portón automatizado en cochera 1 y 2 exclusivos",
+      "Portón automatizado general",
+      "Doble puerta de acceso",
+      "Ascensor hidráulico",
+      "Parrilla de uso común en terraza",
+      "Salón de usos múltiples con cocina, pileta interna y terraza exclusiva",
+      "Puertas de acceso metálicas con detalles en acero",
+      "Puertas interiores y marcos de madera",
+      "Pisos cerámicos de primera calidad en living-comedor, cocina y dormitorios",
+      "Pisos cerámicos de primera calidad en balcones de todas las unidades",
+      "Paredes interiores terminadas en pintura al látex de primera calidad",
+      "Amoblamiento de cocina hecho a medida y de diseño exclusivo, en melamina",
+      "Ventanas hechas a medida con diseño exclusivo, en melamina",
+      "Mesada de granito gris mara y bacha de acero inoxidable",
+      "Carpinterías de aluminio con DVH (doble vidriado hermético)",
+      "Artefactos sanitarios en loza blanca tipo 'Ferrum' o Roca",
+      "Revestimiento cerámico de primera calidad en baños",
+      "Frente de placard corredizo hecho a medida, sobre guías de aluminio",
+      "Barras de mueble bajomesada",
+      "Griferías con cierre metálico",
+      "Cocinas a gas (sin provisión de artefactos)",
+      "Termotanques eléctricos",
+      "Pre-instalación gas aire acondicionado (NO incluye equipos)",
+      "Conexión para lavarropas en todas las unidades",
+      "Instalación de agua fría y caliente en cañería de polipropileno con termofusión",
+      "Instalación de campana",
+      "Instalación lista para televisión e internet",
+      "Piso de sector cocheras en hormigón alisado"
+    ],
+    "plantas": {
+      "Planta Baja": "Cocheras · Bicicletero · Motos · Hall de acceso",
+      "Pisos 1° a 5°": "Unidades de 1, 2 y 3 ambientes (32m² a 92m²)",
+      "Piso 6 — Azotea": "S.U.M. · Parrillas de uso común · Rincón de fuego · Terraza descubierta"
+    },
+    "mapCoords": "-34.6523,-58.7892",
+    "images": [
+      "propiedades/camilli-140/00.png",
+      "propiedades/camilli-140/01.png",
+      "propiedades/camilli-140/02.png"
+    ],
+    "unidades": [
+      {
+        "uf": "UF10",
+        "piso": "1ro",
+        "tipo": "Monoambiente",
+        "m2Cub": 32.2,
+        "m2Balcon": 3.0,
+        "m2Total": 35.2,
+        "precioUSD": 49300,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF11",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 49.1,
+        "m2Balcon": 8.5,
+        "m2Total": 57.6,
+        "precioUSD": 80700,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF12",
+        "piso": "1ro",
+        "tipo": "Monoambiente",
+        "m2Cub": 32.2,
+        "m2Balcon": 3.0,
+        "m2Total": 35.2,
+        "precioUSD": 49300,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF13",
+        "piso": "1ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 49.1,
+        "m2Balcon": 8.5,
+        "m2Total": 57.6,
+        "precioUSD": 80700,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF14",
+        "piso": "2do",
+        "tipo": "Monoambiente",
+        "m2Cub": 32.2,
+        "m2Balcon": 3.0,
+        "m2Total": 35.2,
+        "precioUSD": 49300,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF20",
+        "piso": "3ro",
+        "tipo": "Monoambiente",
+        "m2Cub": 32.2,
+        "m2Balcon": 3.0,
+        "m2Total": 35.2,
+        "precioUSD": 49300,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF21",
+        "piso": "3ro",
+        "tipo": "2 Ambientes",
+        "m2Cub": 49.1,
+        "m2Balcon": 8.5,
+        "m2Total": 57.6,
+        "precioUSD": 80700,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF22",
+        "piso": "4to",
+        "tipo": "Monoambiente",
+        "m2Cub": 32.2,
+        "m2Balcon": 3.0,
+        "m2Total": 35.2,
+        "precioUSD": 49300,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF24",
+        "piso": "4to",
+        "tipo": "Monoambiente",
+        "m2Cub": 32.2,
+        "m2Balcon": 3.0,
+        "m2Total": 35.2,
+        "precioUSD": 49300,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF25",
+        "piso": "4to",
+        "tipo": "2 Ambientes",
+        "m2Cub": 49.1,
+        "m2Balcon": 8.5,
+        "m2Total": 57.6,
+        "precioUSD": 80700,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF26",
+        "piso": "5to",
+        "tipo": "3 Ambientes",
+        "m2Cub": 81.1,
+        "m2Balcon": 11.5,
+        "m2Total": 92.6,
+        "precioUSD": 129000,
+        "estado": "Disponible"
+      },
+      {
+        "uf": "UF27",
+        "piso": "5to",
+        "tipo": "3 Ambientes",
+        "m2Cub": 81.1,
+        "m2Balcon": 11.5,
+        "m2Total": 92.6,
+        "precioUSD": 129000,
+        "estado": "Disponible"
+      }
+    ],
+    "formaPago": {
+      "descripcion": "40% anticipo + 30 cuotas + 5 refuerzos semestrales",
+      "opciones": [
+        {
+          "nombre": "Monoambiente (35m²)",
+          "detalle": "USD 49.300 total — Anticipo USD 19.700 + 30 cuotas x USD 570 + 5 refuerzos x USD 2.500"
+        },
+        {
+          "nombre": "2 Ambientes (57m²)",
+          "detalle": "USD 80.700 total — Anticipo USD 32.200 + 30 cuotas x USD 1.200 + 5 refuerzos x USD 2.500"
+        },
+        {
+          "nombre": "3 Ambientes (92m²)",
+          "detalle": "USD 129.000 total — Anticipo USD 51.600 + 30 cuotas x USD 1.750 + 5 refuerzos x USD 5.000"
+        }
+      ],
+      "nota": "USD/m²: 1.400.",
+      "extras": [
+        {
+          "item": "Cocheras cubiertas (portón exclusivo)",
+          "precio": "USD 12.000"
+        },
+        {
+          "item": "Cocheras descubiertas",
+          "precio": "USD 10.000"
+        }
+      ]
+    }
+  }
+]
