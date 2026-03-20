@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Mail, Phone } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -34,7 +35,9 @@ export default function Footer() {
           <div>
             <p className="text-white uppercase tracking-brand-wide text-xs mb-4 font-display">Navegacion</p>
             <nav className="flex flex-col gap-2">
-              <Link to="/" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Emprendimientos</Link>
+              <Link to="/" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Inicio</Link>
+              <Link to="/propiedades" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Propiedades</Link>
+              <Link to="/emprendimientos" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Emprendimientos</Link>
               <Link to="/nosotros" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Nosotros</Link>
             </nav>
           </div>
@@ -42,9 +45,29 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <p className="text-white uppercase tracking-brand-wide text-xs mb-4 font-display">Contacto</p>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              Proximamente WhatsApp e Instagram
-            </p>
+            <div className="flex flex-col gap-3">
+              <a
+                href="mailto:rossiguarino.prop@gmail.com"
+                className="inline-flex items-center gap-2 text-gray-400 text-sm hover:text-brand-teal transition-colors"
+              >
+                <Mail size={14} />
+                rossiguarino.prop@gmail.com
+              </a>
+              <a
+                href="tel:+541167521620"
+                className="inline-flex items-center gap-2 text-gray-400 text-sm hover:text-brand-teal transition-colors"
+              >
+                <Phone size={14} />
+                11-6752-1620
+              </a>
+              <a
+                href="tel:+541140916878"
+                className="inline-flex items-center gap-2 text-gray-400 text-sm hover:text-brand-teal transition-colors"
+              >
+                <Phone size={14} />
+                11-4091-6878
+              </a>
+            </div>
           </div>
         </div>
 

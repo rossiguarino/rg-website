@@ -4,7 +4,7 @@ export default function SearchSection() {
   return (
     <section
       id="buscador"
-      className="scroll-mt-20 bg-brand-gray-light py-12 md:py-16 px-6"
+      className="scroll-mt-20 bg-gray-100 py-12 md:py-16 px-6"
     >
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8">

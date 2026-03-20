@@ -159,7 +159,7 @@ export default function Header() {
             <a
               href="#contacto"
               onClick={goToContacto}
-              className="text-sm tracking-brand-wide uppercase text-brand-teal"
+              className="text-sm tracking-brand-wide uppercase text-white bg-brand-teal px-4 py-2 rounded text-center hover:bg-brand-teal-dark transition-colors mt-2"
             >
               Contacto
             </a>

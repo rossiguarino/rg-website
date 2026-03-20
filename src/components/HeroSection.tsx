@@ -27,13 +27,13 @@ export default function HeroSection() {
       <img
         src="./elementos/rg-element-14.png"
         alt=""
-        className="absolute -left-10 -top-10 w-80 md:w-[24rem] lg:w-[28rem] opacity-[0.7] pointer-events-none select-none"
+        className="absolute -left-10 -top-10 w-80 md:w-[24rem] lg:w-[28rem] opacity-[0.15] md:opacity-[0.7] pointer-events-none select-none"
       />
       {/* Decorative element 16 - RG fragments, bottom right */}
       <img
         src="./elementos/rg-element-16.png"
         alt=""
-        className="absolute -right-16 -bottom-20 w-80 md:w-[26rem] opacity-[0.7] pointer-events-none select-none"
+        className="absolute -right-16 -bottom-20 w-80 md:w-[26rem] opacity-[0.15] md:opacity-[0.7] pointer-events-none select-none"
       />
 
       <div className="text-center">

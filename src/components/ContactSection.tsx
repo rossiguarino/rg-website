@@ -1,3 +1,5 @@
+import { Mail, Phone } from 'lucide-react'
+
 export default function ContactSection() {
   return (
     <section id="contacto" className="relative overflow-hidden">
@@ -19,13 +21,32 @@ export default function ContactSection() {
         <h2 className="text-3xl md:text-4xl text-brand-black mb-4">
           Contactanos
         </h2>
-        <p className="text-brand-gray max-w-3xl mx-auto mb-8 font-accent text-lg md:text-xl lg:text-2xl italic">
+        <p className="text-brand-gray max-w-3xl mx-auto mb-10 font-accent text-lg md:text-xl lg:text-2xl italic">
           Estamos para ayudarte a encontrar tu proxima inversion
         </p>
-        <div className="inline-flex items-center gap-3 bg-brand-teal/10 rounded-lg px-8 py-4 border border-brand-teal/20">
-          <p className="text-brand-gray text-sm tracking-brand">
-            Proximamente nuestros canales de contacto
-          </p>
+
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+          <a
+            href="mailto:rossiguarino.prop@gmail.com"
+            className="inline-flex items-center gap-2 bg-brand-teal text-white px-6 py-3 rounded-lg text-sm uppercase tracking-brand-wide font-display hover:bg-brand-teal-dark transition-colors"
+          >
+            <Mail size={16} />
+            Escribinos
+          </a>
+          <a
+            href="tel:+541167521620"
+            className="inline-flex items-center gap-2 bg-white text-brand-black px-6 py-3 rounded-lg text-sm uppercase tracking-brand-wide font-display border border-gray-200 hover:border-brand-teal hover:text-brand-teal transition-colors"
+          >
+            <Phone size={16} />
+            11-6752-1620
+          </a>
+          <a
+            href="tel:+541140916878"
+            className="inline-flex items-center gap-2 bg-white text-brand-black px-6 py-3 rounded-lg text-sm uppercase tracking-brand-wide font-display border border-gray-200 hover:border-brand-teal hover:text-brand-teal transition-colors"
+          >
+            <Phone size={16} />
+            11-4091-6878
+          </a>
         </div>
       </div>
     </section>
