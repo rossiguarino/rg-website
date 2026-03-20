@@ -1,0 +1,32 @@
+[
+  {
+    "id": "local-riobamba-719",
+    "slug": "local-riobamba-719-merlo",
+    "title": "Local comercial — Riobamba 719",
+    "operacion": "venta",
+    "tipoPropiedad": "local",
+    "ambientes": 0,
+    "dormitorios": 0,
+    "banos": 0,
+    "superficieTotal": 26.72,
+    "superficieCubierta": 26.72,
+    "address": "Riobamba 719, Merlo",
+    "location": "Merlo",
+    "price": 140000,
+    "currency": "USD",
+    "priceDisplay": "USD 140.000",
+    "expensas": null,
+    "expensasDisplay": null,
+    "description": "Local comercial a la calle en excelente ubicacion de Merlo. Superficie de 3,66 x 7,30 metros (26,72 m²). Cuenta con persiana metalica perforada electrica e instalacion de luz. Ideal para emprendimiento comercial o profesional.",
+    "features": [
+      "Local a la calle",
+      "Superficie: 3,66 x 7,30 m",
+      "Persiana metalica perforada electrica",
+      "Instalacion de luz",
+      "Excelente ubicacion comercial"
+    ],
+    "images": [],
+    "destacada": true,
+    "disponible": true
+  }
+]

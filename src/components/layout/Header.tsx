@@ -9,19 +9,6 @@ export default function Header() {
 
   const isActive = (path: string) => location.pathname === path
 
-  const goToEmprendimientos = (e: React.MouseEvent) => {
-    e.preventDefault()
-    setMenuOpen(false)
-    if (location.pathname === '/') {
-      document.getElementById('emprendimientos')?.scrollIntoView({ behavior: 'smooth' })
-    } else {
-      navigate('/')
-      setTimeout(() => {
-        document.getElementById('emprendimientos')?.scrollIntoView({ behavior: 'smooth' })
-      }, 100)
-    }
-  }
-
   const goToNosotros = (e: React.MouseEvent) => {
     e.preventDefault()
     setMenuOpen(false)
@@ -29,6 +16,20 @@ export default function Header() {
     setTimeout(() => {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }, 50)
+  }
+
+  /** Navigates to contact section. If not on home, goes to home first. */
+  const goToContacto = (e: React.MouseEvent) => {
+    e.preventDefault()
+    setMenuOpen(false)
+    if (location.pathname === '/') {
+      document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      navigate('/')
+      setTimeout(() => {
+        document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })
+      }, 150)
+    }
   }
 
   return (
@@ -46,21 +47,42 @@ export default function Header() {
           <img
             src="./logos/rg-favicon.png"
             alt="RG"
-            className="h-14 md:h-16 w-auto"
+            className="h-16 md:h-20 w-auto"
           />
         </a>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
           <a
-            href="#emprendimientos"
-            onClick={goToEmprendimientos}
+            href="/"
+            onClick={(e) => {
+              e.preventDefault()
+              setMenuOpen(false)
+              navigate('/')
+              setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50)
+            }}
             className={`text-sm tracking-brand-wide uppercase transition-colors cursor-pointer ${
               isActive('/') ? 'text-brand-teal' : 'text-brand-black hover:text-brand-teal'
             }`}
           >
-            Emprendimientos
+            Inicio
           </a>
+          <Link
+            to="/propiedades"
+            className={`text-sm tracking-brand-wide uppercase transition-colors ${
+              location.pathname.startsWith('/propiedades') ? 'text-brand-teal' : 'text-brand-black hover:text-brand-teal'
+            }`}
+          >
+            Propiedades
+          </Link>
+          <Link
+            to="/emprendimientos"
+            className={`text-sm tracking-brand-wide uppercase transition-colors ${
+              location.pathname.startsWith('/emprendimientos') ? 'text-brand-teal' : 'text-brand-black hover:text-brand-teal'
+            }`}
+          >
+            Emprendimientos
+          </Link>
           <a
             href="/nosotros"
             onClick={goToNosotros}
@@ -72,6 +94,7 @@ export default function Header() {
           </a>
           <a
             href="#contacto"
+            onClick={goToContacto}
             className="text-sm tracking-brand-wide uppercase text-white bg-brand-teal px-5 py-2 rounded hover:bg-brand-teal-dark transition-colors"
           >
             Contacto
@@ -93,14 +116,37 @@ export default function Header() {
         <div className="md:hidden border-t border-gray-100 bg-white">
           <nav className="flex flex-col px-6 py-4 gap-4">
             <a
-              href="#emprendimientos"
-              onClick={goToEmprendimientos}
-              className={`text-sm tracking-brand-wide uppercase transition-colors ${
+              href="/"
+              onClick={(e) => {
+                e.preventDefault()
+                setMenuOpen(false)
+                navigate('/')
+                setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50)
+              }}
+              className={`text-sm tracking-brand-wide uppercase transition-colors cursor-pointer ${
                 isActive('/') ? 'text-brand-teal' : 'text-brand-black'
               }`}
             >
-              Emprendimientos
+              Inicio
             </a>
+            <Link
+              to="/propiedades"
+              onClick={() => setMenuOpen(false)}
+              className={`text-sm tracking-brand-wide uppercase transition-colors ${
+                location.pathname.startsWith('/propiedades') ? 'text-brand-teal' : 'text-brand-black'
+              }`}
+            >
+              Propiedades
+            </Link>
+            <Link
+              to="/emprendimientos"
+              onClick={() => setMenuOpen(false)}
+              className={`text-sm tracking-brand-wide uppercase transition-colors ${
+                location.pathname.startsWith('/emprendimientos') ? 'text-brand-teal' : 'text-brand-black'
+              }`}
+            >
+              Emprendimientos
+            </Link>
             <a
               href="/nosotros"
               onClick={goToNosotros}
@@ -112,7 +158,7 @@ export default function Header() {
             </a>
             <a
               href="#contacto"
-              onClick={() => setMenuOpen(false)}
+              onClick={goToContacto}
               className="text-sm tracking-brand-wide uppercase text-brand-teal"
             >
               Contacto

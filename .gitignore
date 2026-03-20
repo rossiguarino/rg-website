@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Server data (SQLite database)
+server/data/
+.claude/settings.local.json
+uploads/

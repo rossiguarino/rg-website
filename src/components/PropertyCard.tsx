@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { MapPin, Building2 } from 'lucide-react'
 import ImagePlaceholder from './ImagePlaceholder'
+import { getPublicImageUrl } from '../hooks/usePublicApi'
 
 interface Property {
   id: string
@@ -16,6 +17,14 @@ interface Property {
   constructionStatus: string
   statusConfirmed: boolean
   images: string[]
+  priceFrom?: number
+}
+
+/** Resolves an image path — supports both static (images/...) and API (uploads/...) paths. */
+function resolveImageSrc(path: string): string {
+  if (path.startsWith('uploads/')) return getPublicImageUrl(path)
+  if (path.startsWith('http')) return path
+  return `./${path}`
 }
 
 export default function PropertyCard({ property }: { property: Property }) {
@@ -30,7 +39,7 @@ export default function PropertyCard({ property }: { property: Property }) {
       <div className="aspect-[4/3] overflow-hidden relative">
         {hasImages ? (
           <img
-            src={`./${property.images[0]}`}
+            src={resolveImageSrc(property.images[0])}
             alt={property.name}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
@@ -53,6 +62,7 @@ export default function PropertyCard({ property }: { property: Property }) {
           <MapPin size={14} className="flex-shrink-0 text-brand-teal" />
           <span>{property.address}</span>
         </div>
+        <p className="text-brand-gray/70 text-xs mb-1 ml-5">{property.location}</p>
 
         <div className="flex items-center gap-1.5 text-brand-gray text-sm mb-4">
           <Building2 size={14} className="flex-shrink-0 text-brand-teal" />

@@ -1,6 +1,11 @@
 import { ChevronDown } from 'lucide-react'
 
 export default function HeroSection() {
+  const scrollToSearch = (e: React.MouseEvent) => {
+    e.preventDefault()
+    document.getElementById('buscador')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section className="relative flex flex-col items-center justify-center min-h-[85vh] px-6 bg-gradient-to-b from-white via-white to-brand-gray-light overflow-hidden">
       {/* Decorative teal line */}
@@ -45,9 +50,10 @@ export default function HeroSection() {
       </div>
 
       <a
-        href="#emprendimientos"
-        className="absolute bottom-12 animate-bounce text-brand-teal"
-        aria-label="Ver emprendimientos"
+        href="#buscador"
+        onClick={scrollToSearch}
+        className="absolute bottom-10 z-10 animate-bounce text-brand-teal"
+        aria-label="Ir al buscador"
       >
         <ChevronDown size={32} />
       </a>

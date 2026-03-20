@@ -1,5 +1,13 @@
 import { useState, useEffect, useCallback } from 'react'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
+import { getPublicImageUrl } from '../hooks/usePublicApi'
+
+/** Resolves an image path — supports both static and API (uploads/) paths. */
+function resolveImg(path: string): string {
+  if (path.startsWith('uploads/')) return getPublicImageUrl(path)
+  if (path.startsWith('http')) return path
+  return `./${path}`
+}
 
 interface LightboxProps {
   images: string[]
@@ -47,7 +55,7 @@ export default function Lightbox({ images, initialIndex, onClose, name }: Lightb
       {/* Main image */}
       <div className="w-full h-full flex items-center justify-center p-4 md:p-12">
         <img
-          src={`./${images[current]}`}
+          src={resolveImg(images[current])}
           alt={`${name} - Imagen ${current + 1}`}
           className="max-w-full max-h-full object-contain select-none"
           draggable={false}
@@ -87,7 +95,7 @@ export default function Lightbox({ images, initialIndex, onClose, name }: Lightb
                 }`}
               >
                 <img
-                  src={`./${img}`}
+                  src={resolveImg(img)}
                   alt={`Miniatura ${i + 1}`}
                   className="w-full h-full object-cover"
                 />

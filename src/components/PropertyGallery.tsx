@@ -2,6 +2,14 @@ import { useState } from 'react'
 import { ChevronLeft, ChevronRight, Maximize2 } from 'lucide-react'
 import ImagePlaceholder from './ImagePlaceholder'
 import Lightbox from './Lightbox'
+import { getPublicImageUrl } from '../hooks/usePublicApi'
+
+/** Resolves an image path — supports both static and API (uploads/) paths. */
+function resolveImg(path: string): string {
+  if (path.startsWith('uploads/')) return getPublicImageUrl(path)
+  if (path.startsWith('http')) return path
+  return `./${path}`
+}
 
 interface PropertyGalleryProps {
   images: string[]
@@ -28,7 +36,7 @@ export default function PropertyGallery({ images, name }: PropertyGalleryProps) 
           onClick={() => setLightboxOpen(true)}
         >
           <img
-            src={`./${images[current]}`}
+            src={resolveImg(images[current])}
             alt={`${name} - Imagen ${current + 1}`}
             className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
             onError={(e) => { (e.target as HTMLImageElement).style.opacity = '0' }}
@@ -78,7 +86,7 @@ export default function PropertyGallery({ images, name }: PropertyGalleryProps) 
               }`}
             >
               <img
-                src={`./${img}`}
+                src={resolveImg(img)}
                 alt={`Miniatura ${i + 1}`}
                 className="w-full h-full object-cover"
                 onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}

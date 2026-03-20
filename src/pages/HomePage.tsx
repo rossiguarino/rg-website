@@ -1,12 +1,16 @@
 import HeroSection from '../components/HeroSection'
-import PropertyGrid from '../components/PropertyGrid'
+import SearchSection from '../components/SearchSection'
+import EmprendimientosPreview from '../components/EmprendimientosPreview'
+import PropiedadesPreview from '../components/PropiedadesPreview'
 import ContactSection from '../components/ContactSection'
 
 export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <PropertyGrid />
+      <SearchSection />
+      <EmprendimientosPreview />
+      <PropiedadesPreview />
       <ContactSection />
     </>
   )
