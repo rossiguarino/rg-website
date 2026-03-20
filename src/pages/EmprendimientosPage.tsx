@@ -52,7 +52,7 @@ export default function EmprendimientosPage() {
     departamento: ['departamento', 'depto', 'monoambiente'],
     casa: ['casa'],
     duplex: ['dúplex', 'duplex'],
-    local: ['local', 'comercial'],
+    'local comercial': ['local', 'comercial'],
     terreno: ['terreno', 'lote'],
     oficina: ['oficina'],
     cochera: ['cochera'],
@@ -111,7 +111,7 @@ export default function EmprendimientosPage() {
         <div className="flex items-center gap-2 mb-4">
           <span className="text-brand-gray text-sm">
             Filtrando por: <strong className="text-brand-black">
-              {{ casa: 'Casas', departamento: 'Departamentos', duplex: 'Duplex', ph: 'PH', local: 'Locales comerciales' }[tipoFiltro] || tipoFiltro}
+              {{ casa: 'Casas', departamento: 'Departamentos', duplex: 'Duplex', ph: 'PH', 'local comercial': 'Locales comerciales' }[tipoFiltro] || tipoFiltro}
             </strong>
           </span>
           <button

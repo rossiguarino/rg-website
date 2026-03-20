@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Admin panel - don't index
+Disallow: /#/admin
+
+# API endpoints - don't index
+Disallow: /api/
+
+# Uploads served directly
+Allow: /uploads/
+
+Sitemap: /sitemap.xml

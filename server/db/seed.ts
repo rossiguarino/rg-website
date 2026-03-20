@@ -88,16 +88,26 @@ export function seed(): void {
  * Create the default admin user with a hashed password.
  */
 function seedAdmin(): void {
-  const passwordHash = bcrypt.hashSync('RGadmin2024!', 10);
+  const adminEmail = process.env.ADMIN_EMAIL || 'admin@rgpropiedades.com';
+  const adminPassword = process.env.ADMIN_PASSWORD || (() => {
+    if (process.env.NODE_ENV === 'production') {
+      console.error('[FATAL] ADMIN_PASSWORD environment variable is required in production.');
+      process.exit(1);
+    }
+    console.warn('[seed] ⚠️  Using default dev admin password. Set ADMIN_PASSWORD env var for production.');
+    return 'RGadmin2024!';
+  })();
+
+  const passwordHash = bcrypt.hashSync(adminPassword, 10);
   const adminUuid = uuidv4();
 
   db.run(
     `INSERT INTO users (uuid, first_name, last_name, email, password_hash, role)
      VALUES (?, ?, ?, ?, ?, ?)`,
-    adminUuid, 'Admin', 'RG', 'admin@rgpropiedades.com', passwordHash, 'admin'
+    adminUuid, 'Admin', 'RG', adminEmail, passwordHash, 'admin'
   );
 
-  console.log('[seed] Created admin user: admin@rgpropiedades.com');
+  console.log(`[seed] Created admin user: ${adminEmail}`);
 }
 
 /**

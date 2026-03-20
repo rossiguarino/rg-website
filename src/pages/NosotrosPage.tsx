@@ -127,7 +127,7 @@ export default function NosotrosPage() {
           <h2 className="text-2xl md:text-3xl text-brand-black mb-4">Conoce nuestros emprendimientos</h2>
           <p className="text-brand-gray mb-8">Explora nuestra cartera de emprendimientos inmobiliarios en Merlo y alrededores.</p>
           <Link
-            to="/"
+            to="/emprendimientos"
             className="inline-flex items-center gap-2 bg-brand-teal text-white px-8 py-3 rounded-lg text-sm uppercase tracking-brand-wide hover:bg-brand-teal-dark transition-colors font-display"
           >
             Ver emprendimientos

@@ -15,7 +15,7 @@ const TIPOS_PROPIEDAD = [
   { value: 'departamento', label: 'Departamento' },
   { value: 'duplex', label: 'Duplex' },
   { value: 'ph', label: 'PH' },
-  { value: 'local', label: 'Local comercial' },
+  { value: 'local comercial', label: 'Local comercial' },
 ]
 
 export default function SearchBar() {

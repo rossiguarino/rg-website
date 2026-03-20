@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react'
+import { Mail, MessageCircle } from 'lucide-react'
 
 export default function ContactSection() {
   return (
@@ -34,17 +34,21 @@ export default function ContactSection() {
             Escribinos
           </a>
           <a
-            href="tel:+541167521620"
-            className="inline-flex items-center gap-2 bg-white text-brand-black px-6 py-3 rounded-lg text-sm uppercase tracking-brand-wide font-display border border-gray-200 hover:border-brand-teal hover:text-brand-teal transition-colors"
+            href="https://wa.me/541167521620"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-lg text-sm uppercase tracking-brand-wide font-display hover:bg-[#1da851] transition-colors"
           >
-            <Phone size={16} />
+            <MessageCircle size={16} />
             11-6752-1620
           </a>
           <a
-            href="tel:+541140916878"
-            className="inline-flex items-center gap-2 bg-white text-brand-black px-6 py-3 rounded-lg text-sm uppercase tracking-brand-wide font-display border border-gray-200 hover:border-brand-teal hover:text-brand-teal transition-colors"
+            href="https://wa.me/541140916878"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-lg text-sm uppercase tracking-brand-wide font-display hover:bg-[#1da851] transition-colors"
           >
-            <Phone size={16} />
+            <MessageCircle size={16} />
             11-4091-6878
           </a>
         </div>

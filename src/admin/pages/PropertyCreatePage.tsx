@@ -177,10 +177,11 @@ export default function PropertyCreatePage() {
                       <SelectValue placeholder="Seleccionar" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="departamento">Departamento</SelectItem>
                       <SelectItem value="casa">Casa</SelectItem>
+                      <SelectItem value="departamento">Departamento</SelectItem>
+                      <SelectItem value="duplex">Duplex</SelectItem>
                       <SelectItem value="ph">PH</SelectItem>
-                      <SelectItem value="local">Local</SelectItem>
+                      <SelectItem value="local comercial">Local comercial</SelectItem>
                       <SelectItem value="oficina">Oficina</SelectItem>
                       <SelectItem value="terreno">Terreno</SelectItem>
                       <SelectItem value="cochera">Cochera</SelectItem>

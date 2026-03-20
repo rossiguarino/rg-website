@@ -1,9 +1,17 @@
 import { Request, Response, NextFunction } from 'express';
+import { randomBytes } from 'crypto';
 import jwt from 'jsonwebtoken';
 import { userRepository, UserRow } from '../repositories/users';
 
 /** The JWT secret used for signing and verifying tokens */
-const JWT_SECRET = process.env.JWT_SECRET || 'rg-propiedades-dev-secret-2024';
+const JWT_SECRET = process.env.JWT_SECRET || (() => {
+  if (process.env.NODE_ENV === 'production') {
+    console.error('[FATAL] JWT_SECRET environment variable is required in production.');
+    process.exit(1);
+  }
+  console.warn('[auth] ⚠️  Using default dev JWT secret. Set JWT_SECRET env var for production.');
+  return 'rg-propiedades-dev-secret-' + randomBytes(16).toString('hex');
+})();
 
 /** JWT payload shape after verification */
 export interface JwtPayload {
