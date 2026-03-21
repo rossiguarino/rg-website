@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Home } from 'lucide-react'
 import PropiedadCard from './PropiedadCard'
 import PropiedadFeaturedCard from './PropiedadFeaturedCard'
 import { usePropiedades, type PublicProperty } from '../hooks/usePublicApi'
@@ -61,6 +61,7 @@ export default function PropiedadesPreview() {
 
   // Filter out emprendimientos — only show regular propiedades
   const disponibles = rawProperties.filter((p) => !p.is_emprendimiento)
+  const hasMore = disponibles.length > MAX_PREVIEW
   const preview = disponibles.slice(0, MAX_PREVIEW)
 
   const ventaCount = disponibles.filter((p) => p.operacion === 'venta').length
@@ -76,7 +77,7 @@ export default function PropiedadesPreview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-24">
         <div className="flex items-end justify-between mb-10 md:mb-14">
           <div>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl text-brand-black mb-3">
+            <h2 className="text-3xl md:text-4xl text-brand-black mb-3">
               Propiedades
             </h2>
             <div className="w-12 h-px bg-brand-teal mb-3" />
@@ -108,6 +109,19 @@ export default function PropiedadesPreview() {
             {propiedades.map((propiedad) => (
               <PropiedadCard key={propiedad.id} propiedad={propiedad} />
             ))}
+            {hasMore && (
+              <Link
+                to="/propiedades"
+                className="flex flex-col items-center justify-center min-h-[320px] rounded-2xl border-2 border-dashed border-brand-teal/30 bg-brand-teal/5 hover:bg-brand-teal/10 hover:border-brand-teal/50 transition-all duration-300 group"
+              >
+                <Home size={40} className="text-brand-teal mb-4 group-hover:scale-110 transition-transform" />
+                <span className="text-lg font-display font-semibold text-brand-black mb-1">Ver más</span>
+                <span className="text-sm text-brand-gray">
+                  {disponibles.length - MAX_PREVIEW} propiedad{disponibles.length - MAX_PREVIEW !== 1 ? 'es' : ''} más
+                </span>
+                <ArrowRight size={20} className="text-brand-teal mt-3 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            )}
           </div>
         )}
 

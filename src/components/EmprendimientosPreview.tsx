@@ -1,15 +1,20 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react'
+import { ChevronLeft, ChevronRight, ArrowRight, Building2 } from 'lucide-react'
 import PropertyCard from './PropertyCard'
 import { useEmprendimientos } from '../hooks/usePublicApi'
+
+/** Max emprendimientos to show in the carousel before the "Ver más" card */
+const MAX_PREVIEW = 6
 
 /**
  * Emprendimientos carousel for the homepage.
  * Fetches data from the public API.
  */
 export default function EmprendimientosPreview() {
-  const { properties, loading } = useEmprendimientos()
+  const { properties: allProperties, loading } = useEmprendimientos()
+  const hasMore = allProperties.length > MAX_PREVIEW
+  const properties = allProperties.slice(0, MAX_PREVIEW)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isHovered, setIsHovered] = useState(false)
   const trackRef = useRef<HTMLDivElement>(null)
@@ -30,7 +35,8 @@ export default function EmprendimientosPreview() {
     return () => window.removeEventListener('resize', handleResize)
   }, [getVisibleCount])
 
-  const maxIndex = Math.max(0, properties.length - visibleCount)
+  const totalItems = properties.length + (hasMore ? 1 : 0)
+  const maxIndex = Math.max(0, totalItems - visibleCount)
 
   const goNext = useCallback(() => {
     setCurrentIndex((prev) => (prev >= maxIndex ? 0 : prev + 1))
@@ -86,7 +92,7 @@ export default function EmprendimientosPreview() {
     <section id="contenido" className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-24">
       <div className="flex items-end justify-between mb-10 md:mb-14">
         <div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-brand-black mb-3">
+          <h2 className="text-3xl md:text-4xl text-brand-black mb-3">
             Emprendimientos
           </h2>
           <div className="w-12 h-px bg-brand-teal mb-3" />
@@ -108,7 +114,7 @@ export default function EmprendimientosPreview() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        {properties.length > visibleCount && (
+        {totalItems > visibleCount && (
           <>
             <button
               onClick={goPrev}
@@ -144,6 +150,24 @@ export default function EmprendimientosPreview() {
                 <PropertyCard property={toCardProp(property)} />
               </div>
             ))}
+            {hasMore && (
+              <div
+                className="flex-shrink-0 px-3"
+                style={{ width: `${100 / visibleCount}%` }}
+              >
+                <Link
+                  to="/emprendimientos"
+                  className="flex flex-col items-center justify-center h-full min-h-[320px] rounded-2xl border-2 border-dashed border-brand-teal/30 bg-brand-teal/5 hover:bg-brand-teal/10 hover:border-brand-teal/50 transition-all duration-300 group"
+                >
+                  <Building2 size={40} className="text-brand-teal mb-4 group-hover:scale-110 transition-transform" />
+                  <span className="text-lg font-display font-semibold text-brand-black mb-1">Ver más</span>
+                  <span className="text-sm text-brand-gray">
+                    {allProperties.length - MAX_PREVIEW} emprendimiento{allProperties.length - MAX_PREVIEW !== 1 ? 's' : ''} más
+                  </span>
+                  <ArrowRight size={20} className="text-brand-teal mt-3 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            )}
           </div>
         </div>
 

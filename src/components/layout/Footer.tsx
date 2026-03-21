@@ -39,6 +39,7 @@ export default function Footer() {
               <Link to="/propiedades" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Propiedades</Link>
               <Link to="/emprendimientos" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Emprendimientos</Link>
               <Link to="/nosotros" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Nosotros</Link>
+              <Link to="/contacto" className="text-gray-400 text-sm hover:text-brand-teal transition-colors">Contacto</Link>
             </nav>
           </div>
 

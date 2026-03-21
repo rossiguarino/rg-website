@@ -126,16 +126,31 @@ export default function PropiedadesPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-20">
-      <div className="text-center mb-10 md:mb-14">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl text-brand-black mb-4">
-          Propiedades
-        </h1>
-        <div className="w-12 h-px bg-brand-teal mx-auto mb-4" />
-        <p className="text-brand-gray max-w-lg mx-auto">
-          Encontra tu proximo hogar o tu mejor inversion inmobiliaria
-        </p>
-      </div>
+    <div>
+      {/* Hero */}
+      <section className="relative bg-gradient-to-b from-brand-gray-light to-white py-16 md:py-24 px-6 overflow-hidden">
+        <img
+          src="./elementos/rg-element-01.png"
+          alt=""
+          className="absolute -right-28 top-0 w-72 md:w-[24rem] opacity-[0.04] pointer-events-none select-none"
+        />
+        <img
+          src="./elementos/rg-element-14.png"
+          alt=""
+          className="absolute -left-16 -bottom-8 w-80 md:w-[22rem] opacity-[0.15] md:opacity-[0.7] pointer-events-none select-none"
+        />
+        <div className="relative max-w-4xl mx-auto text-center">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl text-brand-black mb-4">
+            Propiedades
+          </h1>
+          <div className="w-12 h-px bg-brand-teal mx-auto mb-4" />
+          <p className="text-brand-gray max-w-lg mx-auto">
+            Encontra tu proximo hogar o tu mejor inversion inmobiliaria
+          </p>
+        </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16">
 
       {hasAnyData && (
         <PropiedadesFilters
@@ -164,6 +179,7 @@ export default function PropiedadesPage() {
       ) : (
         <PropiedadesEmptyState hasFilters={hasAnyData && hasFilters} />
       )}
+      </div>
     </div>
   )
 }

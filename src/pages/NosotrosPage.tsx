@@ -32,7 +32,7 @@ export default function NosotrosPage() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl text-brand-black mb-6">
             Nosotros
           </h1>
-          <div className="w-16 h-px bg-brand-teal mx-auto" />
+          <div className="w-12 h-px bg-brand-teal mx-auto" />
         </div>
       </section>
 
@@ -41,10 +41,10 @@ export default function NosotrosPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-start">
           <div>
             <p className="text-brand-teal text-sm uppercase tracking-brand-wide mb-3 font-display">Nuestra historia</p>
-            <h2 className="text-2xl md:text-3xl text-brand-black mb-6">
+            <h2 className="text-3xl md:text-4xl text-brand-black mb-6">
               Dos miradas, un emprendimiento
             </h2>
-            <div className="w-10 h-px bg-brand-teal mb-6" />
+            <div className="w-12 h-px bg-brand-teal mb-6" />
           </div>
           <div className="space-y-5 text-brand-gray leading-relaxed">
             <p>
@@ -81,8 +81,8 @@ export default function NosotrosPage() {
         />
         <div className="text-center mb-12">
           <p className="text-brand-teal text-sm uppercase tracking-brand-wide mb-3 font-display">Lo que nos define</p>
-          <h2 className="text-2xl md:text-3xl text-brand-black">Nuestros Valores</h2>
-          <div className="w-10 h-px bg-brand-teal mx-auto mt-4" />
+          <h2 className="text-3xl md:text-4xl text-brand-black">Nuestros Valores</h2>
+          <div className="w-12 h-px bg-brand-teal mx-auto mt-4" />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -124,7 +124,8 @@ export default function NosotrosPage() {
       {/* CTA */}
       <section className="bg-brand-gray-light py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl text-brand-black mb-4">Conoce nuestros emprendimientos</h2>
+          <h2 className="text-3xl md:text-4xl text-brand-black mb-3">Conoce nuestros emprendimientos</h2>
+          <div className="w-12 h-px bg-brand-teal mx-auto mb-4" />
           <p className="text-brand-gray mb-8">Explora nuestra cartera de emprendimientos inmobiliarios en Merlo y alrededores.</p>
           <Link
             to="/emprendimientos"

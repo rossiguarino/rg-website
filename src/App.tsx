@@ -12,6 +12,7 @@ const PropiedadesPage = lazy(() => import('./pages/PropiedadesPage'))
 const PropiedadDetailPage = lazy(() => import('./pages/PropiedadDetailPage'))
 const EmprendimientosPage = lazy(() => import('./pages/EmprendimientosPage'))
 const NosotrosPage = lazy(() => import('./pages/NosotrosPage'))
+const ContactoPage = lazy(() => import('./pages/ContactoPage'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 // Admin imports (lazy-loaded - separate chunk)
@@ -54,6 +55,7 @@ export default function App() {
               <Route path="/propiedades/:slug" element={<Layout><PropiedadDetailPage /></Layout>} />
               <Route path="/emprendimientos" element={<Layout><EmprendimientosPage /></Layout>} />
               <Route path="/nosotros" element={<Layout><NosotrosPage /></Layout>} />
+              <Route path="/contacto" element={<Layout><ContactoPage /></Layout>} />
 
               {/* Admin routes */}
               <Route path="/admin/login" element={<LoginPage />} />

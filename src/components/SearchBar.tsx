@@ -118,14 +118,10 @@ export default function SearchBar() {
               className={selectClass}
             >
               <option value="">Todos</option>
-              {options.ambientes.map((amb) => (
-                <option key={amb} value={amb}>
-                  {amb >= 4 ? `${amb}+` : amb} {amb === 1 ? 'ambiente' : 'ambientes'}
-                </option>
-              ))}
-              {!options.ambientes.includes(4) && (
-                <option value="4">4+ ambientes</option>
-              )}
+              <option value="1">1 ambiente</option>
+              <option value="2">2 ambientes</option>
+              <option value="3">3 ambientes</option>
+              <option value="4">4+ ambientes</option>
             </select>
           </div>
 

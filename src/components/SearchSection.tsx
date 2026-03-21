@@ -11,10 +11,10 @@ export default function SearchSection() {
           <p className="text-brand-teal text-xs uppercase tracking-brand-wide mb-3 font-display">
             Encontra lo que buscas
           </p>
-          <h2 className="text-2xl md:text-3xl text-brand-black mb-2">
+          <h2 className="text-3xl md:text-4xl text-brand-black mb-3">
             Busca tu proxima inversion
           </h2>
-          <div className="w-10 h-px bg-brand-teal mx-auto mt-3 mb-2" />
+          <div className="w-12 h-px bg-brand-teal mx-auto mb-2" />
         </div>
         <SearchBar />
       </div>

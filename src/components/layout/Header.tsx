@@ -18,18 +18,11 @@ export default function Header() {
     }, 50)
   }
 
-  /** Navigates to contact section. If not on home, goes to home first. */
   const goToContacto = (e: React.MouseEvent) => {
     e.preventDefault()
     setMenuOpen(false)
-    if (location.pathname === '/') {
-      document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })
-    } else {
-      navigate('/')
-      setTimeout(() => {
-        document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })
-      }, 150)
-    }
+    navigate('/contacto')
+    setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50)
   }
 
   return (
